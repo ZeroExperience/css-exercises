@@ -1,0 +1,40 @@
+.para,
+.child {
+    color: red;
+}
+
+.para {
+    font-size: large;
+    font-weight: bold;
+}
+
+.small-para,
+.child {
+    font-size: medium;
+    font-weight: normal;
+}
+
+div,
+button {
+    font-size: large;
+}
+
+div {
+    color: green;
+    font-weight: bold;
+}
+
+button {
+    font-family: sans-serif;
+}
+
+.confirm {
+    color: white;
+    background-color: green;
+    font-weight: bold;
+}
+
+.cancel {
+    color: black;
+    background-color: white;
+}
