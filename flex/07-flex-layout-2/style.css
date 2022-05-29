@@ -1,0 +1,96 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 72px;
+    background: darkmagenta;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 0 16px;
+  }
+  
+  .meat-and-potatoes {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+
+  .footer {
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background: royalblue;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 16px;
+  }
+
+  .cards {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+
+  .card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: fit-content;
+    min-height: 300px;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 24px;
+  }
+
+  li {
+    margin-bottom: 16px;
+  }
+  
+a:link {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
